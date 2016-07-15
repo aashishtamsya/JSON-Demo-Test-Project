@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11DE11D1D38DD1200D7340F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DE11C1D38DD1200D7340F /* main.m */; };
+		E11DE1201D38DD1200D7340F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DE11F1D38DD1200D7340F /* AppDelegate.m */; };
+		E11DE1231D38DD1200D7340F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DE1221D38DD1200D7340F /* ViewController.m */; };
+		E11DE1261D38DD1200D7340F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11DE1241D38DD1200D7340F /* Main.storyboard */; };
+		E11DE1281D38DD1300D7340F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11DE1271D38DD1300D7340F /* Assets.xcassets */; };
+		E11DE12B1D38DD1300D7340F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11DE1291D38DD1300D7340F /* LaunchScreen.storyboard */; };
+		E11DE1361D38DD1300D7340F /* Felix_JSON_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DE1351D38DD1300D7340F /* Felix_JSON_TestTests.m */; };
+		E11DE1411D38DD1300D7340F /* Felix_JSON_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DE1401D38DD1300D7340F /* Felix_JSON_TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E11DE1321D38DD1300D7340F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11DE1101D38DD1200D7340F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11DE1171D38DD1200D7340F;
+			remoteInfo = "Felix JSON Test";
+		};
+		E11DE13D1D38DD1300D7340F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E11DE1101D38DD1200D7340F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11DE1171D38DD1200D7340F;
+			remoteInfo = "Felix JSON Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E11DE1181D38DD1200D7340F /* Felix JSON Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Felix JSON Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11DE11C1D38DD1200D7340F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E11DE11E1D38DD1200D7340F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E11DE11F1D38DD1200D7340F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E11DE1211D38DD1200D7340F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E11DE1221D38DD1200D7340F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E11DE1251D38DD1200D7340F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E11DE1271D38DD1300D7340F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E11DE12A1D38DD1300D7340F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E11DE12C1D38DD1300D7340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11DE1311D38DD1300D7340F /* Felix JSON TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Felix JSON TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11DE1351D38DD1300D7340F /* Felix_JSON_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Felix_JSON_TestTests.m; sourceTree = "<group>"; };
+		E11DE1371D38DD1300D7340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11DE13C1D38DD1300D7340F /* Felix JSON TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Felix JSON TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11DE1401D38DD1300D7340F /* Felix_JSON_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Felix_JSON_TestUITests.m; sourceTree = "<group>"; };
+		E11DE1421D38DD1300D7340F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11DE1151D38DD1200D7340F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11DE12E1D38DD1300D7340F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11DE1391D38DD1300D7340F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11DE10F1D38DD1200D7340F = {
+			isa = PBXGroup;
+			children = (
+				E11DE11A1D38DD1200D7340F /* Felix JSON Test */,
+				E11DE1341D38DD1300D7340F /* Felix JSON TestTests */,
+				E11DE13F1D38DD1300D7340F /* Felix JSON TestUITests */,
+				E11DE1191D38DD1200D7340F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11DE1191D38DD1200D7340F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11DE1181D38DD1200D7340F /* Felix JSON Test.app */,
+				E11DE1311D38DD1300D7340F /* Felix JSON TestTests.xctest */,
+				E11DE13C1D38DD1300D7340F /* Felix JSON TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11DE11A1D38DD1200D7340F /* Felix JSON Test */ = {
+			isa = PBXGroup;
+			children = (
+				E11DE11E1D38DD1200D7340F /* AppDelegate.h */,
+				E11DE11F1D38DD1200D7340F /* AppDelegate.m */,
+				E11DE1211D38DD1200D7340F /* ViewController.h */,
+				E11DE1221D38DD1200D7340F /* ViewController.m */,
+				E11DE1241D38DD1200D7340F /* Main.storyboard */,
+				E11DE1271D38DD1300D7340F /* Assets.xcassets */,
+				E11DE1291D38DD1300D7340F /* LaunchScreen.storyboard */,
+				E11DE12C1D38DD1300D7340F /* Info.plist */,
+				E11DE11B1D38DD1200D7340F /* Supporting Files */,
+			);
+			path = "Felix JSON Test";
+			sourceTree = "<group>";
+		};
+		E11DE11B1D38DD1200D7340F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11DE11C1D38DD1200D7340F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E11DE1341D38DD1300D7340F /* Felix JSON TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E11DE1351D38DD1300D7340F /* Felix_JSON_TestTests.m */,
+				E11DE1371D38DD1300D7340F /* Info.plist */,
+			);
+			path = "Felix JSON TestTests";
+			sourceTree = "<group>";
+		};
+		E11DE13F1D38DD1300D7340F /* Felix JSON TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E11DE1401D38DD1300D7340F /* Felix_JSON_TestUITests.m */,
+				E11DE1421D38DD1300D7340F /* Info.plist */,
+			);
+			path = "Felix JSON TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11DE1171D38DD1200D7340F /* Felix JSON Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11DE1451D38DD1300D7340F /* Build configuration list for PBXNativeTarget "Felix JSON Test" */;
+			buildPhases = (
+				E11DE1141D38DD1200D7340F /* Sources */,
+				E11DE1151D38DD1200D7340F /* Frameworks */,
+				E11DE1161D38DD1200D7340F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Felix JSON Test";
+			productName = "Felix JSON Test";
+			productReference = E11DE1181D38DD1200D7340F /* Felix JSON Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E11DE1301D38DD1300D7340F /* Felix JSON TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11DE1481D38DD1300D7340F /* Build configuration list for PBXNativeTarget "Felix JSON TestTests" */;
+			buildPhases = (
+				E11DE12D1D38DD1300D7340F /* Sources */,
+				E11DE12E1D38DD1300D7340F /* Frameworks */,
+				E11DE12F1D38DD1300D7340F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11DE1331D38DD1300D7340F /* PBXTargetDependency */,
+			);
+			name = "Felix JSON TestTests";
+			productName = "Felix JSON TestTests";
+			productReference = E11DE1311D38DD1300D7340F /* Felix JSON TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E11DE13B1D38DD1300D7340F /* Felix JSON TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11DE14B1D38DD1300D7340F /* Build configuration list for PBXNativeTarget "Felix JSON TestUITests" */;
+			buildPhases = (
+				E11DE1381D38DD1300D7340F /* Sources */,
+				E11DE1391D38DD1300D7340F /* Frameworks */,
+				E11DE13A1D38DD1300D7340F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E11DE13E1D38DD1300D7340F /* PBXTargetDependency */,
+			);
+			name = "Felix JSON TestUITests";
+			productName = "Felix JSON TestUITests";
+			productReference = E11DE13C1D38DD1300D7340F /* Felix JSON TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11DE1101D38DD1200D7340F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Aashish Tamsya";
+				TargetAttributes = {
+					E11DE1171D38DD1200D7340F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E11DE1301D38DD1300D7340F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E11DE1171D38DD1200D7340F;
+					};
+					E11DE13B1D38DD1300D7340F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E11DE1171D38DD1200D7340F;
+					};
+				};
+			};
+			buildConfigurationList = E11DE1131D38DD1200D7340F /* Build configuration list for PBXProject "Felix JSON Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11DE10F1D38DD1200D7340F;
+			productRefGroup = E11DE1191D38DD1200D7340F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11DE1171D38DD1200D7340F /* Felix JSON Test */,
+				E11DE1301D38DD1300D7340F /* Felix JSON TestTests */,
+				E11DE13B1D38DD1300D7340F /* Felix JSON TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11DE1161D38DD1200D7340F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11DE12B1D38DD1300D7340F /* LaunchScreen.storyboard in Resources */,
+				E11DE1281D38DD1300D7340F /* Assets.xcassets in Resources */,
+				E11DE1261D38DD1200D7340F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11DE12F1D38DD1300D7340F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11DE13A1D38DD1300D7340F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11DE1141D38DD1200D7340F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11DE1231D38DD1200D7340F /* ViewController.m in Sources */,
+				E11DE1201D38DD1200D7340F /* AppDelegate.m in Sources */,
+				E11DE11D1D38DD1200D7340F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11DE12D1D38DD1300D7340F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11DE1361D38DD1300D7340F /* Felix_JSON_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11DE1381D38DD1300D7340F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11DE1411D38DD1300D7340F /* Felix_JSON_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E11DE1331D38DD1300D7340F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11DE1171D38DD1200D7340F /* Felix JSON Test */;
+			targetProxy = E11DE1321D38DD1300D7340F /* PBXContainerItemProxy */;
+		};
+		E11DE13E1D38DD1300D7340F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E11DE1171D38DD1200D7340F /* Felix JSON Test */;
+			targetProxy = E11DE13D1D38DD1300D7340F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E11DE1241D38DD1200D7340F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11DE1251D38DD1200D7340F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E11DE1291D38DD1300D7340F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11DE12A1D38DD1300D7340F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E11DE1431D38DD1300D7340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E11DE1441D38DD1300D7340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E11DE1461D38DD1300D7340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Felix JSON Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.Felix-JSON-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E11DE1471D38DD1300D7340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Felix JSON Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.Felix-JSON-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E11DE1491D38DD1300D7340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Felix JSON TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.Felix-JSON-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Felix JSON Test.app/Felix JSON Test";
+			};
+			name = Debug;
+		};
+		E11DE14A1D38DD1300D7340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Felix JSON TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.Felix-JSON-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Felix JSON Test.app/Felix JSON Test";
+			};
+			name = Release;
+		};
+		E11DE14C1D38DD1300D7340F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Felix JSON TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.Felix-JSON-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Felix JSON Test";
+			};
+			name = Debug;
+		};
+		E11DE14D1D38DD1300D7340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Felix JSON TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix.aashishtamsya.Felix-JSON-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Felix JSON Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11DE1131D38DD1200D7340F /* Build configuration list for PBXProject "Felix JSON Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11DE1431D38DD1300D7340F /* Debug */,
+				E11DE1441D38DD1300D7340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11DE1451D38DD1300D7340F /* Build configuration list for PBXNativeTarget "Felix JSON Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11DE1461D38DD1300D7340F /* Debug */,
+				E11DE1471D38DD1300D7340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E11DE1481D38DD1300D7340F /* Build configuration list for PBXNativeTarget "Felix JSON TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11DE1491D38DD1300D7340F /* Debug */,
+				E11DE14A1D38DD1300D7340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E11DE14B1D38DD1300D7340F /* Build configuration list for PBXNativeTarget "Felix JSON TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11DE14C1D38DD1300D7340F /* Debug */,
+				E11DE14D1D38DD1300D7340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11DE1101D38DD1200D7340F /* Project object */;
+}
