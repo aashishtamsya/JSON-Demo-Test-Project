@@ -4,16 +4,26 @@
 [![Programming Language](https://img.shields.io/badge/language-objective--c-ff69b4.svg)]()
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
 
-Following is a test template for students and professtional to test their skills on JSON parsing in iOS. 
+Following is a test template on JSON parsing in iOS using Objective C. 
+
+##Demo
+![DEMO](https://github.com/aashishtamsya/SoundShakerObjC/blob/master/Resources/Demo/DEMO.gif)
+## Screenshots
+
+![Screenshot Home](Resources/Screenshots/1.png?raw=true "Screenshot Home")
+![Screenshot Recording](Resources/Screenshots/2.png?raw=true "Screenshot Recording")
+![Screenshot Played](Resources/Screenshots/3.png?raw=true "Screenshot Played")
+![Screenshot Shake](Resources/Screenshots/4.png?raw=true "Screenshot Shake")
 
 ##Problem Statement
 
-Fetch the movie data from following link https://json-test-sample-project.firebaseio.com/api.json and display it on screen.
+Fetch the movie data from following [link](https://json-test-sample-project.firebaseio.com/api.json) and display it on screen.
 
 ##Nice To Have Functions
 - Open webview when clicked on link button in detail screen.
 - Sorting of Movies on basis of Name, Rating, Release Date.
 - Search feature on list view
+- Use of Custom Font
 
 ## Installation
 
