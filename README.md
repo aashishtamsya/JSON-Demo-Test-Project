@@ -7,13 +7,12 @@
 Following is a test template on JSON parsing in iOS using Objective C. 
 
 ##Demo
-![DEMO](https://github.com/aashishtamsya/SoundShakerObjC/blob/master/Resources/Demo/DEMO.gif)
+![DEMO](https://github.com/aashishtamsya/TestProject-JSONParsing/tree/master/Resources/ATDemo.gif)
 ## Screenshots
 
 ![Screenshot Home](Resources/Screenshots/1.png?raw=true "Screenshot Home")
-![Screenshot Recording](Resources/Screenshots/2.png?raw=true "Screenshot Recording")
-![Screenshot Played](Resources/Screenshots/3.png?raw=true "Screenshot Played")
-![Screenshot Shake](Resources/Screenshots/4.png?raw=true "Screenshot Shake")
+![Screenshot Detail](Resources/Screenshots/2.png?raw=true "Screenshot Detail")
+![Screenshot Filter](Resources/Screenshots/3.png?raw=true "Screenshot Filter")
 
 ##Problem Statement
 
