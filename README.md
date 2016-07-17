@@ -6,13 +6,6 @@
 
 Following is a test template on JSON parsing in iOS using Objective C. 
 
-##Demo
-![DEMO](https://github.com/aashishtamsya/TestProject-JSONParsing/blob/master/Resources/DEMO/ATDemo.gif)
-## Screenshots
-
-![Screenshot Home](Resources/Screenshots/1.png?raw=true "Screenshot Home")
-![Screenshot Detail](Resources/Screenshots/2.png?raw=true "Screenshot Detail")
-![Screenshot Filter](Resources/Screenshots/3.png?raw=true "Screenshot Filter")
 
 ##Problem Statement
 
@@ -23,6 +16,16 @@ Fetch the movie data from following [link](https://json-test-sample-project.fire
 - Sorting of Movies on basis of Name, Rating, Release Date.
 - Search feature on list view
 - Use of Custom Font
+
+##Demo
+![DEMO](https://github.com/aashishtamsya/TestProject-JSONParsing/blob/master/Resources/DEMO/ATDemo.gif)
+
+## Screenshots
+
+![Screenshot Home](Resources/Screenshots/1.png?raw=true "Screenshot Home")
+![Screenshot Detail](Resources/Screenshots/2.png?raw=true "Screenshot Detail")
+![Screenshot Filter](Resources/Screenshots/3.png?raw=true "Screenshot Filter")
+
 
 ## Installation
 
