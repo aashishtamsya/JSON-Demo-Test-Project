@@ -7,7 +7,7 @@
 Following is a test template on JSON parsing in iOS using Objective C. 
 
 ##Demo
-![DEMO](https://github.com/aashishtamsya/TestProject-JSONParsing/tree/master/Resources/ATDemo.gif)
+![DEMO](https://github.com/aashishtamsya/TestProject-JSONParsing/tree/master/Resources/DEMO/ATDemo.gif)
 ## Screenshots
 
 ![Screenshot Home](Resources/Screenshots/1.png?raw=true "Screenshot Home")
