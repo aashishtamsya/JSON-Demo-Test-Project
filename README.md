@@ -42,4 +42,6 @@ aashish.tamsya@gmail.com
 
 ## License
 
-[TestProject-JSONParsing](https://github.com/aashishtamsya/TestProject-JSONParsing) is available under the MIT license. See the [LICENSE](LICENSE.md) file for more info.
+The content of [TestProject-JSONParsing](https://github.com/aashishtamsya/TestProject-JSONParsing) itself is licensed under the [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/us/deed.en_US), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
+
+See the [LICENSE](LICENSE.md) file for more info.
