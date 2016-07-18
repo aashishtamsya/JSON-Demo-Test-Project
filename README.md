@@ -32,7 +32,7 @@ Fetch the movie data from following [link](https://json-test-sample-project.fire
 1. Download the zip or clone the repo to your desired directory.
 
 ```sh
-$ git clone [git-repo-url] 
+$ git clone https://github.com/aashishtamsya/TestProject-JSONParsing.git 
 ```
 
 ## Credits
