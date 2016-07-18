@@ -4,7 +4,7 @@
 [![Programming Language](https://img.shields.io/badge/language-objective--c-ff69b4.svg)]()
 [![Scrutinizer Build](https://img.shields.io/scrutinizer/build/g/filp/whoops.svg?maxAge=2592000)]()
 
-Following is a test template on JSON parsing in iOS using Objective C. 
+JSON Parsing test template written in Objective-C, as JSON data interchange is an integral part of iOS development. This project aims to help in developing logical and building industrial skills required for a newbie in iOS development. Completing this project will help the candidate to understand and practise his/her JSON parsing skills better.  
 
 
 ##Problem Statement
