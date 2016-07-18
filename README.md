@@ -1,4 +1,4 @@
-# JSON Demo Test Project Template
+# JSON Parsing - Project Template For Test/Practice
 
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)]()
 [![Programming Language](https://img.shields.io/badge/language-objective--c-ff69b4.svg)]()
@@ -39,3 +39,7 @@ $ git clone [git-repo-url]
 
 Aashish Tamsya [@ChiefAashish](https://www.twitter.com/chiefaashish),
 aashish.tamsya@gmail.com
+
+## License
+
+[TestProject-JSONParsing](https://github.com/aashishtamsya/TestProject-JSONParsing) is available under the MIT license. See the [LICENSE](LICENSE.md) file for more info.
