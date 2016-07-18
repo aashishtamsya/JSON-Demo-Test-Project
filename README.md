@@ -26,6 +26,9 @@ Fetch the movie data from following [link](https://json-test-sample-project.fire
 ![Screenshot Detail](Resources/Screenshots/2.png?raw=true "Screenshot Detail")
 ![Screenshot Filter](Resources/Screenshots/3.png?raw=true "Screenshot Filter")
 
+#Requirements
+* iOS 9.0+
+* Xcode 7.0
 
 ## Installation
 
